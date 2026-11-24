@@ -1,0 +1,20 @@
+{
+    "experiment_01_baseline": {
+        "vectorizer": "TF-IDF",
+        "classifier": "LogisticRegression",
+        "class_weight": null,
+        "accuracy": 0.8260869565217391,
+        "macro_precision": 0.8661053883715932,
+        "macro_recall": 0.6949228184395674,
+        "macro_f1": 0.7481078983046953
+    },
+    "experiment_02_balanced": {
+        "vectorizer": "TF-IDF",
+        "classifier": "LogisticRegression",
+        "class_weight": "balanced",
+        "accuracy": 0.8521739130434782,
+        "macro_precision": 0.8399886365261574,
+        "macro_recall": 0.7862247457700571,
+        "macro_f1": 0.8095670688308457
+    }
+}

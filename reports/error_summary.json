@@ -1,0 +1,24 @@
+{
+    "total_samples": 690,
+    "correct_predictions": 599,
+    "total_errors": 91,
+    "error_rate": 0.1319,
+    "errors_by_true_class": {
+        "Positive": 44,
+        "Negative": 28,
+        "Neutral": 19
+    },
+    "errors_by_predicted_class": {
+        "Neutral": 57,
+        "Positive": 29,
+        "Negative": 5
+    },
+    "error_types": {
+        "Positive -> Neutral": 40,
+        "Neutral -> Positive": 18,
+        "Negative -> Neutral": 17,
+        "Negative -> Positive": 11,
+        "Positive -> Negative": 4,
+        "Neutral -> Negative": 1
+    }
+}
